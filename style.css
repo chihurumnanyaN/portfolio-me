@@ -485,6 +485,7 @@ header{
 
 .photo-gallery .image {
     background-size: cover;
+    background-repeat:no-repeat ;
     background-position: center;
     border-radius: 10px;
     border:#2401c2 1px dotted;
