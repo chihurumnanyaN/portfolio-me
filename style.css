@@ -17,6 +17,7 @@ body{
 
 button{
     border:none;
+    font-family: "Akaya Kanadaka", serif;
 }
 h1{
         font-family: "Akaya Kanadaka", serif;
@@ -852,7 +853,7 @@ header{
 
 .contact .socials p {
     font-size: 1.5rem;
-    font-family:cursive;
+    font-family:'Akaya Kanadaka', 'cursive', serif;
 }
 
  .contact-us{
