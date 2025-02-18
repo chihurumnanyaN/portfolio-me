@@ -816,7 +816,7 @@ header{
     font-family:'Akaya Kanadaka', 'cursive', serif;
     background-color:#2401c2;
     color: #c1b1fa;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
     transition: background-color 0.3s ease;
@@ -893,7 +893,7 @@ header{
 }
 
 .contact .socials img{
-    width: 40px;
+    width: 30px;
 }
 
 .contact .socials p {
