@@ -288,27 +288,7 @@ header{
   display: none;  /* Hide the extra text by default */
 }
 
-/* .see-more-btn {
 
-    text-decoration: none;
-    width:8em;
-    margin: 5px;
-    padding: 10px  20px;
-    border-radius:999px;
-    font-family:'Akaya Kanadaka', 'cursive', serif;
-    color:#2401c2;
-    border:#2401c2 1px groove;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-  
-}
-
-.see-more-btn:hover {
-    border: none;
-      background-color:#2401c2;
-    color: white;
-} */
 
 .see-more-btn  {
     text-decoration: none;
@@ -362,11 +342,18 @@ header{
     justify-content: center;
 }
 
-
-.works{
+.projects{
+    width: 100%;
     display: flex;
-    flex-wrap:wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+}
+.works{
+      display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0px 25px;
     gap: 1rem;
     margin-top:1rem;
 }
@@ -374,8 +361,7 @@ header{
 .jobs{
     width:20em;
     height:auto;
-    background: #14142e;
-    box-shadow: 3px 3px 11px #02021b;
+    border: #b29dfd 0.2px solid;
     color:white;
     border-radius:20px;
     padding:5px;
@@ -388,6 +374,31 @@ header{
     margin: 0 20px;
 }
 
+.jobs-links{
+      display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.jobs-links li a{
+    list-style: none;
+    text-decoration: none;
+    width:1em;
+    height: 1em;
+    margin: 2px;
+   
+    border-radius:999px;
+    font-family: "Akaya Kanadaka", "cursive", serif;
+    border: none;
+    background-color:#2401c2;
+    color:#b29dfd;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
 .jobs a{
         text-decoration: none;
     width:8em;
@@ -407,6 +418,14 @@ header{
     color:#2401c2;
     border:#2401c2 1px groove;
     background-color:#2401c200;
+}
+
+.job-info{
+      display: flex;
+    flex-direction:column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
 }
 
 .jobs h4{
@@ -439,111 +458,38 @@ header{
     margin: 20px;
 }
 
-.contact .socials {
+.social{
     display: flex;
-    background-color: white;
-    border-radius: 999px;
-    margin: 10px 0;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    height:3rem;
-    padding: 15px 25px 15px 20px ;
-    width: 85%;
-    text-decoration:none;
-
-}
-
-.contact .socials:hover{
-    background-color:#c1b1fa;
-}
-
-.contact .socials img{
-    width: 50px;
-}
-
-.contact .socials p {
-    font-size: 2rem;
-    font-family:"Akaya Kanadaka", "cursive", serif;
-
-}
-
-.photos{
-    margin-bottom: 5vh;
-}
-
- .photo-gallery{
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+.social ul{
+   list-style: none;
+   display: flex;
+   gap: 2em;
+   
 }
 
-.photo-gallery .first-section{
-     display: flex;
-    flex-direction:row;
-    gap: 20px;
-    margin: 20px;
-}
-
-.photo-gallery .second-section {
-    display: flex;
-    flex-direction:column;
-    gap: 20px;
-    margin: 20px;
-}
-
-.photo-gallery .first-section .image{
-    height: 50vh;
-    width: 35vw;
-}
-
-.photo-gallery .second-section .image{
-    height:60vh;
-    width: 80vw;
-}
-
-.photo-gallery .image {
-    background-size: cover;
-    background-repeat:no-repeat ;
-    background-position: center 50%;
-    border-radius: 10px;
-    border:#2401c2 1px dotted;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.photo-gallery .image:hover {
-    transform: scale(1.05);
-}
-
-.photo-gallery.show-button {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.photo-gallery button {
+.contact .social li a{
     text-decoration: none;
-    margin: 10px 10px 0 10px;
-    padding: 10px  20px;
-    border-radius:999px;
-    font-family:'Akaya Kanadaka', 'cursive', serif;
-    background-color:#2401c2;
-    color: #c1b1fa;
-    display: flex;
-    justify-content: center;
-    transition: background-color 0.3s ease;
+    color: #2401c2;
 }
 
-.photo-gallery button:hover {
-    background-color:#b29dfd;
-    color: #2401c2;
-    transition:ease-in ;
-    border:none;
+.contact .social .fab .fas{
+    font-size: 15px;
+    margin: 0;
+    padding: 2px;
+    border-radius: 2px;
+    
 }
+.contact .fab:hover{
+color: #042b2e;
+ background-color:#f8dec7
+}
+
+
+
 .quotes{
     
     margin: 10% 0;
@@ -638,6 +584,21 @@ header{
  
 }
 
+
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px ;
+}
+
+.works{
+          display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0%;
+}
 .hobbies img{
     width: 30px;
 }
@@ -1006,20 +967,3 @@ header{
 }
 }
  
-/* @media(min-width:1000px) {
-    
-.my-image {
-    margin-top: 4%;
-    width: 19rem;
-    height: 19rem;
-
-}
-
-.photo-animation {
-    margin-top: 4%;
-    width: 20rem;
-    height: 200rem;
-
-
-}
-} */
