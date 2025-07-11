@@ -9,6 +9,7 @@ body{
        cursor:  url(chrome-extension://ckejmhbmlajgoklhgbapkiccekfoccmk/assets/pictos/cursor.png) 17 17, pointer !important;
    scrollbar-color:blue;
    padding: 0px;
+   width:100%;
 }
 
 button{
@@ -16,7 +17,7 @@ button{
     font-family: "Akaya Kanadaka", serif;
 }
 h1{
-        font-family: "Akaya Kanadaka", serif;
+    font-family: "Akaya Kanadaka", serif;    
     font-weight: 600;
     font-style: normal;
     color:white;
@@ -450,6 +451,8 @@ header{
       padding: 4px 10px;
       border-radius: 20px;
       margin-bottom: 8px;
+      
+      font-family: "Akaya Kanadaka", serif;
     }
 
     .project-description {
