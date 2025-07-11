@@ -78,7 +78,7 @@ header{
     position:sticky;
     top: 5px;
     z-index: 999;
-    background-color: #2401c2;
+    background-color: rgba(36, 1, 194,0.5) ;
     border-radius: 999px;
     margin: 25px 25px 0px 25px;
     display: flex;
@@ -86,6 +86,8 @@ header{
     align-items: center;
     padding: 5px;
     width: 80%;
+    backdrop-filter: blur(15px); /* 🔥 Glass effect */
+    -webkit-backdrop-filter: blur(15px);
 
 }
 .nav .logo img{
