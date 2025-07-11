@@ -650,6 +650,10 @@ color: #fff;
 /* responsive */
 /* mobile */
 @media (min-width:320px){
+
+    body{
+        width: 100vw;
+    }
         .landing-page .my-name{
     color:white;
     text-align: center;
@@ -727,6 +731,12 @@ color: #fff;
 }
 /* tablet */
 @media (min-width:768px){
+
+        body{
+        width: 100vw;
+    }
+
+
     .landing-page .my-name{
     color:white;
     text-align: center;
@@ -756,6 +766,11 @@ color: #fff;
      /* desktop */
 @media (min-width:1440px) ,(min-width:1280px) ,(min-width:1000px) {
     
+        body{
+        width: 100vw;
+    }
+
+
     .sub-heading{
    font-weight: 800;
    font-size:3rem;
@@ -916,79 +931,6 @@ color: #fff;
     margin-bottom:2rem;
  
  }
- .photo-gallery{
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-.photo-gallery .first-section{
-    display: flex;
-    flex-direction:row;
-    gap: 20px;
-    margin: 20px;
-}
-.photo-gallery .second-section {
-        display: flex;
-    flex-direction:row;
-    gap: 20px;
-    margin: 20px;
-}
-.photo-gallery .first-section .image{
-    height: 50vh;
-    width: 17vw;
-}
-
-.photo-gallery .second-section .image{
-    height: 50vh;
-    width: 17vw;
-}
-.photo-gallery .image {
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    border:#2401c2 1px dotted;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.photo-gallery .image:hover {
-    transform: scale(1.05);
-}
-
-.photo-gallery.show-button {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.photo-gallery button {
-    text-decoration: none;
-    margin: 10px 10px 0 10px;
-    padding: 10px  20px;
-    border-radius:999px;
-    font-family:'Akaya Kanadaka', 'cursive', serif;
-    background-color:#2401c2;
-    color: #c1b1fa;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    transition: background-color 0.3s ease;
-}
-
-.photo-gallery button:hover {
-    background-color:#b29dfd;
-    color: #2401c2;
-    transition:ease-in ;
-    border:none;
-}
-
-
 
 .quotes{
     
