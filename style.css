@@ -227,26 +227,29 @@ header{
     
 }
 
-.btn a{
+.btn .land, .hire{
     text-decoration: none;
     margin: 10px 10px 0 10px;
     padding: 10px  20px;
     border-radius:999px;
     font-family:'Akaya Kanadaka', 'cursive', serif;
-    color:#2401c2;
-    border:#2401c2 1px groove;
+    color:#fff;
+    background-color:#2401c2;
     display: flex;
     justify-content: center;
     
 }
 
-.btn a img{
+
+
+.btn a i{
     width: 20px;
     margin-right:5px;
+    color: #fff;
 }
 
 
-.btn a:hover,a:active{
+.btn  a:hover,a:active i{
     background-color:#b29dfd;
     color: #2401c2;
     transition:ease-in ;
@@ -474,7 +477,7 @@ header{
 
     .jobs-links i {
       font-size: 1.2rem;
-      color: #333;
+      color: #fff;
     }
 
     .jobs-links li {
@@ -835,17 +838,17 @@ color: #fff;
     margin-right:1rem;
     padding-top:5vh;
 }
+
 .landing-page .name{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-top:solid #2401c2;
     border-radius: 20%;
     padding-top:1rem;
-    padding-bottom:4rem;
+    padding-bottom:8rem;
     width:40%;
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
     
 }
 
