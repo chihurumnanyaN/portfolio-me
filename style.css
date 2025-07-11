@@ -327,7 +327,9 @@ header{
 }
 .ttt h6{
     color: white;
-    font-size: 1.5vh;
+    font-size: 2vh;
+    font-weight: 200;
+    font-family:'Akaya Kanadaka', 'cursive', serif;
 }
 
 .hobby{
@@ -400,9 +402,7 @@ header{
     align-items: center;
     padding: 10vh 25px;
 }
-    .works {
 
-    }
 
     .jobs{
       max-width: 350px;
