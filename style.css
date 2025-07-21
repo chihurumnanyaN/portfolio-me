@@ -8,8 +8,7 @@ body{
     background-color: #0a0a1a;
        cursor:  url(chrome-extension://ckejmhbmlajgoklhgbapkiccekfoccmk/assets/pictos/cursor.png) 17 17, pointer !important;
    scrollbar-color:blue;
-   padding: 0px;
-   width:100%;
+   width:100vw;
 }
 
 button{
@@ -99,6 +98,12 @@ header{
 
 }
 
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+    gap: 1rem;
+}
 .nav .menu-icon{
     display: flex;
     justify-content: flex-end;
@@ -127,6 +132,9 @@ header{
     margin-right:4%;
     
 }
+
+
+
 
 .landing-page {
     display: flex;
@@ -284,7 +292,7 @@ header{
     flex-direction: column;
     width:80%;
     z-index: 3;
-
+    
 }
 
 .about-text p{
@@ -374,6 +382,7 @@ header{
     color: white;
 }
 
+
 .bg-img{
   position:fixed;
   top: 20vh;
@@ -396,6 +405,7 @@ header{
   z-index:-1;
   opacity: 0.05;
 }
+
 
 .projects{
     width: 100%;
@@ -689,6 +699,49 @@ color: #fff;
    padding: 5vw;
    height: auto;
 }
+
+.mystack{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.glass-container {
+  width: 70vw;
+  height: 5vh;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  backdrop-filter: blur(14px);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.icon-track {
+  display: flex;
+  gap: 2rem;
+  animation: scrollLeft 15s linear infinite;
+}
+
+.icon-track i {
+  font-size: 1rem;
+  color: white;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+/* Keyframes for left scroll */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
 .ttt{
  width:30vw;
 }
@@ -760,6 +813,50 @@ color: #fff;
     width: 70px;
     }
 }
+
+
+.mystack{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.glass-container {
+  width: 70vw;
+  height: 5vh;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  backdrop-filter: blur(14px);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.icon-track {
+  display: flex;
+  gap: 2rem;
+  animation: scrollLeft 15s linear infinite;
+}
+
+.icon-track i {
+  font-size: 1rem;
+  color: white;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+/* Keyframes for left scroll */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
 
      /* desktop */
 @media (min-width:1440px) ,(min-width:1280px) ,(min-width:1000px) {
@@ -897,6 +994,49 @@ color: #fff;
 .hobby{
     display:flex;
 }
+
+
+.mystack{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.glass-container {
+  width: 20vw;
+  height: 10vh;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  backdrop-filter: blur(14px);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.icon-track {
+  display: flex;
+  gap: 2rem;
+  animation: scrollLeft 15s linear infinite;
+}
+
+.icon-track i {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+/* Keyframes for left scroll */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 
 .works{
       display: grid;
